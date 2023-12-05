@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="XMLParserSuite" verbose="1">
+
+    <test name="Onliner TV" >
+        <groups>
+            <run>
+                <include name="tvTest" />
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.OnlinerTvTest">
+            </class>
+        </classes>
+    </test>
+</suite>
